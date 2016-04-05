@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#050505"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="269dp"
+        android:layout_height="186dp"
+        android:padding="5dp"
+        android:text="Notice that you are\ngoing to send sms\nyou will be charged\nBy operator. "
+        android:textAlignment="center"
+        android:textColor="#f0f4fa"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/sEmail"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:background="#0e29f5"
+        android:onClick="sendEmail"
+        android:padding="5dp"
+        android:text="Let&apos;s start..."
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
